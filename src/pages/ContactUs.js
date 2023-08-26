@@ -2,14 +2,14 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Services - Timewise Solutions</title>
+  <title>Contact Us - Timewise Solutions</title>
   <link rel="stylesheet" href="../styles/main.css">
 </head>
 <body>
 
   <!-- Header -->
   <header>
-    <h1>Our Services</h1>
+    <h1>Contact Us</h1>
   </header>
 
   <!-- Navigation -->
@@ -25,19 +25,20 @@
 
   <!-- Main Content -->
   <main>
-    <section id="blockchain-solutions">
-      <h2>Blockchain Solutions</h2>
-      <p>We offer cutting-edge blockchain solutions for various industries.</p>
-    </section>
+    <section id="contact-form">
+      <h2>Get in Touch</h2>
+      <form action="/submit-contact" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
 
-    <section id="accounting-solutions">
-      <h2>Accounting Solutions</h2>
-      <p>Our accounting solutions are designed to streamline your financial processes.</p>
-    </section>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
 
-    <section id="business-solutions">
-      <h2>Business Solutions</h2>
-      <p>We provide comprehensive business solutions to help you achieve your goals.</p>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message"></textarea>
+
+        <input type="submit" value="Send Message">
+      </form>
     </section>
   </main>
 

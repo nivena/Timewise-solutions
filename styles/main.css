@@ -1,0 +1,51 @@
+<link rel="stylesheet" href="../styles/main.css">
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Add a background color to the whole page */
+  body {
+    background-color: #f4f4f4;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+  }
+  
+  /* Navigation styles */
+  nav ul {
+    background-color: #444;
+    overflow: hidden;
+    color: white;
+  }
+  
+  nav ul li {
+    float: left;
+    display: inline;
+    padding: 14px;
+  }
+  
+  /* Main content */
+  main {
+    margin: 15px;
+    padding: 15px;
+    background-color: #fff;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
